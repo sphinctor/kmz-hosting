@@ -2,29 +2,24 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Toronto</name>
-
     <Schema name="TC" id="TC">
       <SimpleField type="string" name="description"/>
       <SimpleField type="string" name="entityId"/>
       <SimpleField type="float" name="Length"/>
     </Schema>
-
     <Folder>
       <name>GTA</name>
       <Folder>
         <name>GTA Cables</name>
-
         <Placemark>
           <name>51788</name>
           <description>Cable 51788 - Length: 47m</description>
-
           <Style>
             <LineStyle>
               <color>ff0000ff</color>
               <width>2</width>
             </LineStyle>
           </Style>
-
           <ExtendedData>
             <SchemaData schemaUrl="#TC">
               <SimpleData name="description">Cable 51788</SimpleData>
@@ -32,7 +27,6 @@
               <SimpleData name="Length">47</SimpleData>
             </SchemaData>
           </ExtendedData>
-
           <LineString>
             <tessellate>1</tessellate>
             <coordinates>
@@ -41,11 +35,8 @@
               -79.3262852,43.73857435,0
             </coordinates>
           </LineString>
-
         </Placemark>
-
       </Folder>
     </Folder>
-
   </Document>
 </kml>
