@@ -13,9 +13,11 @@
 			<name>GTA Cables</name>
 			<Placemark>
 				<name>51788</name>
+				<description>Cable 51788 - Length: 47m</description>
 				<Style>
 					<LineStyle>
 						<color>ff0000ff</color>
+						<width>2</width>
 					</LineStyle>
 					<PolyStyle>
 						<fill>0</fill>
@@ -28,13 +30,13 @@
 						<SimpleData name="Length">47</SimpleData>
 					</SchemaData>
 				</ExtendedData>
-					<LineString>
-						<coordinates>
-							-79.32653070000001,43.73818766,0
-							-79.32640795,43.7383810053122,0
-							-79.3262852,43.73857435,0 
-						</coordinates>
-					</LineString>
+				<LineString>
+					<coordinates>
+						-79.32653070000001,43.73818766,0
+						-79.32640795,43.7383810053122,0
+						-79.3262852,43.73857435,0 
+					</coordinates>
+				</LineString>
 			</Placemark>
 		</Folder>
 	</Folder>
