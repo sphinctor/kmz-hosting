@@ -2,7 +2,8 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Toronto.kml</name>
-	<open>1</open>	
+	<open>1</open>
+	
 	<Schema name="TC" id="TC">
 		<SimpleField type="string" name="description"></SimpleField>
 		<SimpleField type="string" name="entityId"></SimpleField>
@@ -92,7 +93,6 @@
 					</LineString>
 				</MultiGeometry>
 			</Placemark>
-			
 			<Placemark>
 				<name>51085</name>
 				<description>Cable 51085</description>
