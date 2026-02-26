@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-	<name>Toronto.kml</name>
-	<open>1</open>
-	
+	<name>Toronto</name>
 	<Schema name="TC" id="TC">
 		<SimpleField type="string" name="description"></SimpleField>
 		<SimpleField type="string" name="entityId"></SimpleField>
@@ -14,7 +12,6 @@
 		<name>GTA</name>
 		<Folder>
 			<name>GTA Cables</name>
-			<open>1</open>
 			<Placemark>
 				<name>51788</name>
 				<description>Cable 51788</description>
