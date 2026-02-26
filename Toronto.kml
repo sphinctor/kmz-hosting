@@ -1,44 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document>
-	<name>Toronto</name>
-	<Schema name="TC" id="TC">
-		<SimpleField type="string" name="description"></SimpleField>
-		<SimpleField type="string" name="entityId"></SimpleField>
-		<SimpleField type="float" name="Length"></SimpleField>
-	</Schema>
-	<Folder>
-		<name>GTA</name>
-		<Folder>
-			<name>GTA Cables</name>
-			<Placemark>
-				<name>51788</name>
-				<description>Cable 51788 - Length: 47m</description>
-				<Style>
-					<LineStyle>
-						<color>ff0000ff</color>
-						<width>2</width>
-					</LineStyle>
-					<PolyStyle>
-						<fill>0</fill>
-					</PolyStyle>
-				</Style>
-				<ExtendedData>
-					<SchemaData schemaUrl="#TC">
-						<SimpleData name="description">Cable 51788</SimpleData>
-						<SimpleData name="entityId">11796660</SimpleData>
-						<SimpleData name="Length">47</SimpleData>
-					</SchemaData>
-				</ExtendedData>
-				<LineString>
-					<coordinates>
-						-79.32653070000001,43.73818766,0
-						-79.32640795,43.7383810053122,0
-						-79.3262852,43.73857435,0 
-					</coordinates>
-				</LineString>
-			</Placemark>
-		</Folder>
-	</Folder>
-</Document>
+  <Document>
+    <name>Toronto</name>
+
+    <Schema name="TC" id="TC">
+      <SimpleField type="string" name="description"/>
+      <SimpleField type="string" name="entityId"/>
+      <SimpleField type="float" name="Length"/>
+    </Schema>
+
+    <Folder>
+      <name>GTA</name>
+      <Folder>
+        <name>GTA Cables</name>
+
+        <Placemark>
+          <name>51788</name>
+          <description>Cable 51788 - Length: 47m</description>
+
+          <Style>
+            <LineStyle>
+              <color>ff0000ff</color>
+              <width>2</width>
+            </LineStyle>
+          </Style>
+
+          <ExtendedData>
+            <SchemaData schemaUrl="#TC">
+              <SimpleData name="description">Cable 51788</SimpleData>
+              <SimpleData name="entityId">11796660</SimpleData>
+              <SimpleData name="Length">47</SimpleData>
+            </SchemaData>
+          </ExtendedData>
+
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -79.32653070000001,43.73818766,0
+              -79.32640795,43.7383810053122,0
+              -79.3262852,43.73857435,0
+            </coordinates>
+          </LineString>
+
+        </Placemark>
+
+      </Folder>
+    </Folder>
+
+  </Document>
 </kml>
