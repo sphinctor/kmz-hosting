@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Toronto</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
 	<Schema name="TC" id="TC">
-		<SimpleField type="string" name="description"></SimpleField>
+		<SimpleField type="string" name="descriptio"></SimpleField>
 		<SimpleField type="string" name="entityId"></SimpleField>
 		<SimpleField type="float" name="Length"></SimpleField>
 	</Schema>
@@ -29,10 +30,15 @@
 				</ExtendedData>
 				<MultiGeometry>
 					<LineString>
-						<coordinates>-79.32653070000001,43.738187660,-79.32640795,43.73838100531220,-79.3262852,43.73857435,0</coordinates>
+						<coordinates>
+							-79.32653070000001,43.73818766,0
+							-79.32640795,43.7383810053122,0
+							-79.3262852,43.73857435,0 
+						</coordinates>
 					</LineString>
 				</MultiGeometry>
 			</Placemark>
+
 		</Folder>
 	</Folder>
 </Document>
