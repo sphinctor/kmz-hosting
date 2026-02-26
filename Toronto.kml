@@ -13,7 +13,6 @@
 			<name>GTA Cables</name>
 			<Placemark>
 				<name>51788</name>
-				<description>Cable 51788 - Length: 47m</description>
 				<Style>
 					<LineStyle>
 						<color>ff0000ff</color>
@@ -24,6 +23,7 @@
 				</Style>
 				<ExtendedData>
 					<SchemaData schemaUrl="#TC">
+						<SimpleData name="description">Cable 51788</SimpleData>
 						<SimpleData name="entityId">11796660</SimpleData>
 						<SimpleData name="Length">47</SimpleData>
 					</SchemaData>
