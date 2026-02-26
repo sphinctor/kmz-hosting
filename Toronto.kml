@@ -29,11 +29,13 @@
           </ExtendedData>
           <LineString>
             <tessellate>1</tessellate>
-            <coordinates>
-              -79.32653070000001,43.73818766,0
-              -79.32640795,43.7383810053122,0
-              -79.3262852,43.73857435,0
-            </coordinates>
+            <Point>
+              <coordinates>
+                -79.32653070000001,43.73818766,0
+                -79.32640795,43.7383810053122,0
+                -79.3262852,43.73857435,0
+              </coordinates>
+            </Point>
           </LineString>
         </Placemark>
       </Folder>
