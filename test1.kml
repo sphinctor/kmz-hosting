@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<name>Montreal.kml</name>
+	<Schema name="MB" id="MB">
+		<SimpleField type="string" name="entityId"></SimpleField>
+	</Schema>
+	<Schema name="MC" id="MC">
+		<SimpleField type="string" name="descriptio"></SimpleField>
+		<SimpleField type="string" name="entityId"></SimpleField>
+		<SimpleField type="float" name="Length"></SimpleField>
+	</Schema>
+	<Schema name="MNTRL_Pts" id="MNTRL_Pts">
+		<SimpleField type="string" name="descriptio"></SimpleField>
+		<SimpleField type="string" name="timestamp"></SimpleField>
+		<SimpleField type="string" name="begin"></SimpleField>
+		<SimpleField type="string" name="end"></SimpleField>
+		<SimpleField type="string" name="altitudeMo"></SimpleField>
+		<SimpleField type="float" name="tessellate"></SimpleField>
+		<SimpleField type="float" name="extrude"></SimpleField>
+		<SimpleField type="float" name="visibility"></SimpleField>
+		<SimpleField type="float" name="drawOrder"></SimpleField>
+		<SimpleField type="string" name="icon"></SimpleField>
+		<SimpleField type="string" name="color"></SimpleField>
+		<SimpleField type="string" name="entityId"></SimpleField>
+		<SimpleField type="string" name="outsideTra"></SimpleField>
+		<SimpleField type="string" name="showName"></SimpleField>
+	</Schema>
+	<StyleMap id="m_ylw-pushpin011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin51</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl112</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2300100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin23300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl4012</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2300110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin23311</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl40100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin230012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2332</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl40110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin09</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff06ff21</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin09">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0701fc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin23300">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin23311">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin2332">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin51">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl002">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff06ff21</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>b3ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl112">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl27">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0701fc</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl40100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl40110">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl4012">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_grn-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_grn-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>MTL June2023</name>
+		<LookAt>
+			<longitude>-73.65671654446365</longitude>
+			<latitude>45.42484922291335</latitude>
+			<altitude>0</altitude>
+			<heading>-9.541664044390549e-15</heading>
+			<tilt>45</tilt>
+			<range>1000.000000002502</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<Folder>
+			<name>MTL Cables</name>
+			<Placemark>
+				<name>41178</name>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#MC">
+						<SimpleData name="entityId">8380543</SimpleData>
+						<SimpleData name="Length">1140</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							-73.6510806309613,45.6972161360334,0 -73.6510806309614,45.6972161360335,0 -73.651108275192,45.6972882514181,0 -73.650748900192,45.6975094052642,0 -73.6503234194228,45.6977678187257,0 -73.65016236173049,45.6978639725719,0 -73.6496671694228,45.69816926103339,0 -73.6494532271151,45.69830748218731,0 -73.64926572711509,45.6984324821873,0 -73.6490974578843,45.69855507834109,0 -73.6489436117304,45.6986295975719,0 -73.6487669290381,45.69869690526421,0 -73.6485601982689,45.69875700141801,0 -73.6481154867304,45.6988495494949,0 -73.6476611598073,45.69891204949501,0 -73.64730539057651,45.6989505110334,0 -73.646875102115,45.6989973860334,0 -73.64668760211499,45.6990190206488,0 -73.64648567903809,45.6990286360334,0 -73.6466900059612,45.6995238283411,0 -73.6469051501919,45.6999348860334,0 -73.6471347174996,45.7003735879564,0 -73.6473330348073,45.7007557994949,0 -73.64748928480731,45.7010622898795,0 -73.6476371213458,45.7013447418026,0 -73.6479616405766,45.7019685398795,0 -73.6481166886535,45.7022750302641,0 -73.6482609194227,45.7025490687256,0 -73.6484147655766,45.70284714564869,0 -73.6485746213458,45.7031584437256,0 -73.6487849578843,45.7035610879563,0 -73.6489712559612,45.70392286680249,0 -73.6491912078843,45.70434714564859,0 -73.6493835155766,45.7047497898794,0 -73.6495085155766,45.705025030264,0 -73.6495145251926,45.7050406552638,0 -73.6495145251925,45.7050406552638,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<name>33916</name>
+				<Style>
+					<LineStyle>
+						<color>ff0000ff</color>
+					</LineStyle>
+					<PolyStyle>
+						<fill>0</fill>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#MC">
+						<SimpleData name="entityId">7372913</SimpleData>
+						<SimpleData name="Length">266</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<LineString>
+						<coordinates>
+							-73.6139419,45.5310779,0 -73.6148962,45.5300877087163,0 -73.61585049999999,45.5290975,0 
+						</coordinates>
+					</LineString>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>
